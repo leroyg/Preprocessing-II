@@ -1,1 +1,40 @@
 // Navigation Styles here
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 100%;
+    border-bottom:2px dashed @navigation-border;
+    background: none;
+    padding-bottom: 1rem;
+
+    .logo {
+        justify-content: flex-start;
+        margin: 0px 0px 0px 4%;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        align-items: center;
+        font-size:1.5rem;
+
+    }
+
+    li {
+        margin: 0 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: lightblue;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        transition-duration: .2s;
+    }
+}
