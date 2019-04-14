@@ -279,7 +279,7 @@ img {
           justify-content: space-between;
 }
 .home .content-pick .destination {
-  width: 30%;
+  width: 25%;
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
@@ -289,8 +289,8 @@ img {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  padding: 20px 0;
-  border: 1px solid;
+  padding: 15px 0;
+  border: 1px solid white;
   border-radius: 15px;
   background: #17A2B8;
 }
@@ -299,4 +299,5 @@ img {
   font-size: 1.6rem;
   font-weight: bold;
   text-decoration: none;
+  margin: 0 auto;
 }
